@@ -1,0 +1,10 @@
+node_modules
+.DS_Store
+
+*.local
+.idea
+/package-lock.json
+origin_theme.css
+.vitepress/cache
+.history
+index.md
