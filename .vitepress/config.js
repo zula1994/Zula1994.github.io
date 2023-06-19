@@ -9,7 +9,7 @@ export default defineConfig({
     lang: 'zh-Hans',
     cleanUrls: true,
     cacheDir: './node_modules/vitepress_cache',
-    description: 'vitepress,blog,blog-theme',
+    description: 'fat cat blog',
     ignoreDeadLinks: true,
     markdown: {},
     themeConfig: {
@@ -35,14 +35,14 @@ export default defineConfig({
                 items: [
                     {
                         text: 'react',
-                        link: '/react/'
+                        link: '/docs/react/'
                     }
                 ]
             },
             { text: '关于我', link: '/pages/about' }
         ],
         sidebar: {
-            '/react/': [
+            '/docs/react/': [
                 {
                     text: 'Guide',
                     items: [

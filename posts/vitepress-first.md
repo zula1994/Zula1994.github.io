@@ -1,10 +1,10 @@
 ---
-sidebarDepth: 3
+outline: [2, 3]
 title: vitepress markdown 语法
 description: 常用vitepress markdown 语法
 date: 2023-06-01
 tags:
-    - markdown
+    - blog
 ---
 
 # Markdown 扩展 {#markdown-extensions}

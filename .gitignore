@@ -7,6 +7,6 @@ node_modules
 origin_theme.css
 .vitepress/cache
 .history
-index.md
+./index.md
 dist
 /pages/page/*.md

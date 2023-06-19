@@ -5,8 +5,7 @@
             v-for="(item, key) in data"
             class="tag"
             :class="(key as unknown as string) === selectTag ? 'active' : ''"
-        >
-            {{ key }} <strong>{{ data[key].length }}</strong>
+            ><span>#</span> <span> {{ key }}</span> <strong>{{ data[key].length }}</strong>
         </span>
     </div>
     <div class="tag-header">{{ selectTag }}</div>
@@ -45,14 +44,28 @@ const toggleTag = (tag: string) => {
     margin: 6px 8px;
     font-size: 0.875rem;
     background-color: transparent;
-    transition: 0.4s;
-    border-radius: 4px;
-    border: 1px solid var(--vp-c-text-3);
     color: var(--vp-c-text-1);
     cursor: pointer;
+    gap: 0.4rem;
+    position: relative;
 }
-.tag.active {
-    border: 1px solid var(--vp-c-brand);
+
+.tag::after {
+    transition: all 0.4s;
+    content: '';
+    position: absolute;
+    bottom: 0;
+
+    height: 1px;
+    left: 100%;
+    right: 100%;
+    width: 0;
+    background-color: var(--vp-c-brand);
+}
+.tag.active::after {
+    left: 16px;
+    right: 16px;
+    width: inherit;
 }
 .tag strong {
     color: var(--vp-c-brand);

@@ -5,14 +5,19 @@
                 <a :href="withBase(article.regularPath)"> {{ article.frontMatter.title }}</a>
             </div>
         </div>
-        <div class="post-tags">
-            <span v-for="item in article.frontMatter.tags"
-                ><a :href="withBase(`/pages/tags.html?tag=${item}`)"> {{ item }}</a></span
-            >
-        </div>
+
         <p class="describe" v-html="article.frontMatter.description"></p>
-        <div class="post-info">
-            {{ article.frontMatter.date }}
+        <div class="post-footer">
+            <div class="post-info">
+                <i class="iconfont">&#xe60e;</i>
+                {{ article.frontMatter.date }}
+            </div>
+            <div class="post-tags">
+                <i class="iconfont">&#xe60b;</i>
+                <span v-for="item in article.frontMatter.tags"
+                    ><a :href="withBase(`/pages/tags.html?tag=${item}`)"> {{ `#${item}` }}</a></span
+                >
+            </div>
         </div>
     </div>
 
@@ -53,7 +58,7 @@ const props = defineProps({
     margin: 0.1rem 0;
 }
 .post-info {
-    font-size: 12px;
+    font-size: 14px;
 }
 .post-tags {
     margin: 0.5rem 0;
@@ -61,12 +66,15 @@ const props = defineProps({
 .post-tags span {
     display: inline-block;
     padding: 0 8px;
-    background-color: var(--vp-c-bg-alt);
     margin-right: 10px;
     transition: 0.4s;
     border-radius: 2px;
-    color: var(--vp-c-text-1);
     font-size: 14px;
+}
+
+.post-tags a {
+    color: var(--vp-c-text-1);
+    font-weight: normal;
 }
 .describe {
     font-size: 0.9375rem;
@@ -75,8 +83,16 @@ const props = defineProps({
     -webkit-line-clamp: 3;
     overflow: hidden;
     color: var(--vp-c-text-2);
-    margin: 0.5rem 0;
+    margin: 1rem 0;
     line-height: 1.5rem;
+}
+
+.post-footer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--vp-c-divider);
 }
 .pagination {
     gap: 4px;

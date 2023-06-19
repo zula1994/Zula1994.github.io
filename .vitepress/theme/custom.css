@@ -1,23 +1,35 @@
 :root {
-    --vp-c-brand: #d63200 !important;
-    --vp-c-brand-light: #e95f59;
-    --vp-c-brand-lighter: #fdf0ff;
-    --vp-c-brand-dark: var(--vp-c-brand);
-    --vp-c-brand-darker: var(--vp-c-brand);
+    --vp-c-green: rgb(146, 84, 222);
+    --vp-c-green-light: rgb(239, 219, 255);
+    --vp-c-green-lighter: rgb(249, 240, 255);
+    --vp-c-green-dark: rgb(83, 29, 171);
+    --vp-c-green-darker: rgb(26, 19, 37);
+    --vp-c-green-dimm-1: rgba(146, 84, 222, 0.05);
+    --vp-c-green-dimm-2: rgba(146, 84, 222, 0.2);
+    --vp-c-green-dimm-3: rgba(146, 84, 222, 0.5);
+}
 
-    --vp-font-family-base: 'PingFang SC', 'Microsoft Yahei', sans-serif;
-
-    /* pure theme color */
-    --li-dot-color: var(--vp-c-brand);
+/** 自定义date **/
+:root {
     --date-color: var(--vp-c-text-2);
     --date-font-family: Georgia, sans-serif;
-
-    --vp-sidebar-bg-color: tranparent;
-}
-.dark {
-    --vp-c-brand: #b744e6;
 }
 
+/* 在线链接服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
+@font-face {
+    font-family: 'iconfont'; /* Project id 4123598 */
+    src: url('//at.alicdn.com/t/c/font_4123598_xhbpe49fa.woff2?t=1686800284936') format('woff2'),
+        url('//at.alicdn.com/t/c/font_4123598_xhbpe49fa.woff?t=1686800284936') format('woff'),
+        url('//at.alicdn.com/t/c/font_4123598_xhbpe49fa.ttf?t=1686800284936') format('truetype');
+}
+.iconfont {
+    font-family: 'iconfont' !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
 /* theme reset start */
 
 .Layout {
@@ -43,15 +55,6 @@
     font-size: 0.9375rem;
 }
 
-.content a[rel~='noreferrer']:link,
-a[rel~='noreferrer']:visited {
-    color: var(--vp-c-brand);
-    font-weight: 500 !important;
-    border-bottom: 1px solid var(--vp-c-brand);
-}
-.content a[rel~='noreferrer']:hover {
-    color: #888;
-}
 h1 {
     font-size: 1.5rem !important;
     font-weight: 500 !important;
@@ -68,7 +71,9 @@ h3 {
     font-size: 1rem !important;
     font-weight: 500 !important;
 }
-
+mark {
+    background-color: var(--vp-c-brand-light);
+}
 @media (min-width: 960px) {
     .VPNavBar {
         max-width: 992px;
@@ -118,14 +123,13 @@ h3 {
 }
 
 .post-container {
-    color: var(--vp-c-text-2);
     font-size: 0.9375rem;
     font-weight: 400;
 }
-.post-container:hover {
+
+.posts:hover {
     color: var(--vp-c-brand);
 }
 .date {
-    color: var(--date-color);
     font-family: var(--date-font-family);
 }
