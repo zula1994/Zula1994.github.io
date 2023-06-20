@@ -19,10 +19,10 @@ export default defineConfig({
         },
         lastUpdatedText: '上次更新',
         posts: await getPosts(pageSize),
-        website: 'https://github.com/airene/vitepress-blog-pure', //copyright link
+        website: 'https://github.com/zula1994', //copyright link
         // 评论的仓库地址
         comment: {
-            repo: 'airene/vitepress-blog-pure',
+            repo: 'zula1994/zula1994.github.io',
             themes: 'github-light',
             issueTerm: 'pathname'
         },
