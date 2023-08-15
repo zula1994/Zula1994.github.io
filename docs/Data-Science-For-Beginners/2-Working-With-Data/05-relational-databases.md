@@ -10,7 +10,7 @@ title: 05-关系数据库
 
 您过去可能使用电子表格来存储信息。您有一组行和列，其中行包含信息（或数据），列描述信息（有时称为元数据）。关系数据库基于表中的列和行的核心原则构建，允许您将信息分布在多个表中。这使您可以处理更复杂的数据，避免重复，并灵活地浏览数据。让我们探讨一下关系数据库的概念。
 
-## [Pre-lecture quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/8)
+## [课前测验](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/8)
 
 ## 一切开始于表格
 
@@ -170,7 +170,7 @@ WHERE rainfall.year = 2019
 
 ## Post-Lecture Quiz
 
-## [Post-lecture quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/9)
+## [课后测验](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/9)
 
 ## 回顾和自学
 
