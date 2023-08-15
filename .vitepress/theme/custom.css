@@ -133,3 +133,7 @@ mark {
 .date {
     font-family: var(--date-font-family);
 }
+
+.VPSidebarItem.level-1 {
+    padding-left: 1em;
+}

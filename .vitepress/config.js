@@ -36,6 +36,10 @@ export default defineConfig({
                     {
                         text: 'react',
                         link: '/docs/react/'
+                    },
+                    {
+                        text: '针对初学者的数据科学课程',
+                        link: '/docs/Data-Science-For-Beginners/'
                     }
                 ]
             },
@@ -46,13 +50,24 @@ export default defineConfig({
                 {
                     text: 'Guide',
                     items: [
-                        { text: 'Index', link: '/react/' },
-                        { text: 'One', link: '/react/one' }
+                        { text: 'Index', link: '/docs/react/' },
+                        { text: 'One', link: '/docs/react/one' }
                     ]
                 },
                 {
                     text: 'Two',
-                    items: [{ text: 'Two', link: '/react/Two' }]
+                    items: [{ text: 'Two', link: '/docs/react/Two' }]
+                }
+            ],
+            '/docs/Data-Science-For-Beginners/': [
+                {
+                    text: '2-使用数据',
+                    items: [
+                        {
+                            text: '05-关系数据库',
+                            link: '/docs/Data-Science-For-Beginners/2-Working-With-Data/05-relational-databases.md'
+                        }
+                    ]
                 }
             ]
         },
