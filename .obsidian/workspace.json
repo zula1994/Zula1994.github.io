@@ -11,19 +11,21 @@
             "id": "c01998b6274879fd",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "笔记/🛠️ 开发/seo 新手指南.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
             "id": "f3ffc3ee92df043f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "笔记/🛠️ 开发/seo 新手指南.md",
-                "mode": "source",
-                "source": false
+                "file": "笔记/🛠️ 开发/assets/seo/202406251148635.png"
               }
             }
           },
@@ -37,8 +39,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -246,17 +247,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f3ffc3ee92df043f",
+  "active": "c01998b6274879fd",
   "lastOpenFiles": [
+    "笔记/🛠️ 开发/assets/seo/202406251148635.png",
+    "笔记/🛠️ 开发/seo 新手指南.md",
     "笔记/🛠️ 开发/how-to-write-readme.md",
     "笔记/index.md",
-    "笔记/🛠️ 开发/seo 新手指南.md",
     "笔记/🛠️ 开发/robots.txt.md",
     "笔记/🛠️ 开发/cdn.md",
     "笔记/🛠️ 开发/nextjs-rewrite.md",
     "笔记/🛠️ 开发/nextjs-渲染模式.md",
     "CNAME",
-    "笔记/🛠️ 开发/assets/seo/202406251148635.png",
     "笔记/🛠️ 开发/assets/seo/202406251151029.png",
     "笔记/🛠️ 开发/assets/seo/202406251148635.png.crdownload",
     "笔记/🛠️ 开发/assets/seo",
@@ -293,7 +294,6 @@
     "笔记/🧱 基础设施/🚢 Kubernetes/kubectl 速查表.md",
     "笔记/🧱 基础设施/🚢 Kubernetes/Pod 错误排查之.md",
     "笔记/🧱 基础设施/云上集群的 GPU.md",
-    "笔记/🧮 数学/空洞的想法.md",
     "未命名.canvas"
   ]
 }
