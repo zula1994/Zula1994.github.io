@@ -1,0 +1,165 @@
+{
+  "main": {
+    "id": "c24ee21b48797efe",
+    "type": "split",
+    "children": [
+      {
+        "id": "ea9f5f69ab75275a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "80b8d01dc3d17865",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2399a5ad5b23e955",
+    "type": "split",
+    "children": [
+      {
+        "id": "87c639d53156c32b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "28ea08d3c6fb75ee",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "13e2d2175ee3a72b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fcd6b5f794143264",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "3c9b2db1a3aec04f",
+    "type": "split",
+    "children": [
+      {
+        "id": "ca63c68f8a7f748b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b95615da9ae16046",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "index.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b3a44453bb9acb58",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "index.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d87f386096e278e2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6191d3e1513ec344",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "index.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "80b8d01dc3d17865",
+  "lastOpenFiles": [
+    "README.md",
+    "index.md",
+    "posts/`noindex` 规则.md",
+    "posts/seo 新手指南.md",
+    "posts/cdn.md",
+    "posts/how-to-write-readme.md",
+    "docs/react/two.md",
+    "docs/react/one.md",
+    "docs/react/index.md",
+    "images/vercel-configuration.png",
+    "images/line-numbers-mobile.gif",
+    "images/line-numbers-desktop.png",
+    "images/05-RelationalData.png"
+  ]
+}
