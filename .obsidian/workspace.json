@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "posts/seo 新手指南.md",
                 "mode": "preview",
                 "source": true
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 380.5
   },
   "right": {
     "id": "3c9b2db1a3aec04f",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "posts/seo 新手指南.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "posts/seo 新手指南.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "posts/seo 新手指南.md"
               }
             }
           }
@@ -143,14 +143,15 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "80b8d01dc3d17865",
   "lastOpenFiles": [
-    "README.md",
-    "index.md",
     "posts/`noindex` 规则.md",
+    "index.md",
+    "README.md",
     "posts/seo 新手指南.md",
     "posts/cdn.md",
     "posts/how-to-write-readme.md",
