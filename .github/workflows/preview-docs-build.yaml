@@ -3,7 +3,7 @@ name: 构建预览
 on:
   pull_request:
     branches:
-      - main
+      - master
   workflow_dispatch:
 
 env:
@@ -80,3 +80,6 @@ jobs:
         with:
           name: docs-build
           path: .vitepress/dist
+      - name: 推送到 gh-pages 分支
+          id: deployment
+          uses: actions/deploy-pages@v1
