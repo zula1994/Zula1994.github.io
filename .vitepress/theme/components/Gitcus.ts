@@ -10,10 +10,10 @@ export default defineComponent({
 
     // Obtain configuration from: https://giscus.app/
     giscusTalk({
-      repo: 'https://github.com/zula1994/zula1994.github.io',
-      repoId: '',
+      repo: 'zula1994/zula1994.github.io',
+      repoId: 'MDEwOlJlcG9zaXRvcnkyMjkyMDkyODA=',
       category: 'General', // default: `General`
-      categoryId: '',
+      categoryId: 'DIC_kwDODal0wM4CgXEW',
       mapping: 'pathname', // default: `pathname`
       inputPosition: 'top', // default: `top`
       lang: 'zh-CN', // default: `zh-CN`
