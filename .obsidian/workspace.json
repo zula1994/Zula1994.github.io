@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/🛠️ 开发/nextjs-rewrite.md",
+                "file": "笔记/🛠️ 开发/seo 新手指南.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "笔记/🛠️ 开发/nextjs-rewrite.md",
+                "file": "笔记/🛠️ 开发/seo 新手指南.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -168,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/🛠️ 开发/nextjs-rewrite.md"
+                "file": "笔记/🛠️ 开发/seo 新手指南.md"
               }
             }
           },
@@ -193,7 +193,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/🛠️ 开发/nextjs-rewrite.md",
+                "file": "笔记/🛠️ 开发/seo 新手指南.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +210,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/🛠️ 开发/nextjs-rewrite.md",
+                "file": "笔记/🛠️ 开发/seo 新手指南.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -248,11 +248,14 @@
   },
   "active": "f3ffc3ee92df043f",
   "lastOpenFiles": [
+    "笔记/🛠️ 开发/how-to-write-readme.md",
+    "笔记/index.md",
+    "笔记/🛠️ 开发/seo 新手指南.md",
+    "笔记/🛠️ 开发/robots.txt.md",
+    "笔记/🛠️ 开发/cdn.md",
+    "笔记/🛠️ 开发/nextjs-rewrite.md",
     "笔记/🛠️ 开发/nextjs-渲染模式.md",
     "CNAME",
-    "笔记/🛠️ 开发/how-to-write-readme.md",
-    "笔记/🛠️ 开发/cdn.md",
-    "笔记/🛠️ 开发/seo 新手指南.md",
     "笔记/🛠️ 开发/assets/seo/202406251148635.png",
     "笔记/🛠️ 开发/assets/seo/202406251151029.png",
     "笔记/🛠️ 开发/assets/seo/202406251148635.png.crdownload",
@@ -291,9 +294,6 @@
     "笔记/🧱 基础设施/🚢 Kubernetes/Pod 错误排查之.md",
     "笔记/🧱 基础设施/云上集群的 GPU.md",
     "笔记/🧮 数学/空洞的想法.md",
-    "笔记/🧩 开源贡献/Kubernetes/开始之前.md",
-    "笔记/🤖 AI 人工智能/通过阅读 dlrover 源码学习训练时的自动冗灾恢复和 checkpoint 同步加速.md",
-    "笔记/🤖 AI 人工智能/论文和源码解析：S-LoRA - Serving Thousands of Concurrent LoRA Adapters.md",
     "未命名.canvas"
   ]
 }
