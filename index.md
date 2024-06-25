@@ -1,12 +1,10 @@
 ---
-page: true
-title: home
-aside: false
+layout: home
+sidebar: false
+
+title: FAT·CAT
+titleTemplate: 记录回忆，知识和畅想的地方
+
 ---
-<script setup>
-import Page from '.vitepress/theme/components/Page.vue';
-import { useData } from "vitepress";
-const { theme } = useData();
-const posts = theme.value.posts.slice(0,10)
-</script>
-<Page :posts="posts" :pageCurrent="1" :pagesNum="1" />
+
+<TocList />

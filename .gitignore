@@ -1,12 +1,50 @@
-node_modules
+.Trash/
+.trash/
 .DS_Store
 
-*.local
+# IDE related
+
 .idea
-/package-lock.json
-origin_theme.css
-.vitepress/cache
+
+# Obsidian
+
+**/.obsidian/*
+!**/.obsidian/workspace*
+!**/.obsidian/graph*
+!**/.obsidian/snippets/
+
+# Temporary files
+
+.temp
+
+# Nuxt
+
+.nuxt
+
+# Node.js
+
+node_modules
+.npmrc
+
+# VitePress
+
+**/.vitepress/dist
+**/.vitepress/docsMetadata.json
+**/.vitepress/cache/
+
+# Netlify
+
+.netlify/functions-serve/*
+
+# Generated files
+
+components.d.ts
+
+# Local env files
+
+*.local
+
+# Logs
+
+*.log
 .history
-./index.md
-dist
-/pages/page/*.md
