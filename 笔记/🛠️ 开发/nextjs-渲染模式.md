@@ -1,10 +1,13 @@
 ---
-outline: [2, 3]
+outline:
+  - 2
+  - 3
 title: Next.js-渲染模式
 description: SSR —— 服务端渲染 SSG —— 静态生成 ISR —— 增量静态化
 date: 2023-06-18
 tags:
-    - Next.js
+  - Next.js
+comment: true
 ---
 
 # Next.js-渲染模式

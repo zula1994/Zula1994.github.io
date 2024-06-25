@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/🛠️ 开发/cdn.md",
+                "file": "笔记/🛠️ 开发/nextjs-rewrite.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "笔记/🛠️ 开发/cdn.md",
+                "file": "笔记/🛠️ 开发/nextjs-rewrite.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -168,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/🛠️ 开发/cdn.md"
+                "file": "笔记/🛠️ 开发/nextjs-rewrite.md"
               }
             }
           },
@@ -193,7 +193,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/🛠️ 开发/cdn.md",
+                "file": "笔记/🛠️ 开发/nextjs-rewrite.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +210,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/🛠️ 开发/cdn.md",
+                "file": "笔记/🛠️ 开发/nextjs-rewrite.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -248,6 +248,10 @@
   },
   "active": "f3ffc3ee92df043f",
   "lastOpenFiles": [
+    "笔记/🛠️ 开发/nextjs-渲染模式.md",
+    "CNAME",
+    "笔记/🛠️ 开发/how-to-write-readme.md",
+    "笔记/🛠️ 开发/cdn.md",
     "笔记/🛠️ 开发/seo 新手指南.md",
     "笔记/🛠️ 开发/assets/seo/202406251148635.png",
     "笔记/🛠️ 开发/assets/seo/202406251151029.png",
@@ -260,7 +264,6 @@
     "plugins/templater-obsidian/main - mod.js",
     "plugins/templater-obsidian/data.json",
     "plugins/templater-obsidian",
-    "plugins/obsidian-image-auto-upload-plugin/manifest.json",
     "笔记/🎨 设计/assets/Pasted image 20240619153923.png",
     "笔记/🎨 设计/image.png",
     "笔记/🎨 设计/assets/Pasted image 20240619151152.png",
@@ -291,8 +294,6 @@
     "笔记/🧩 开源贡献/Kubernetes/开始之前.md",
     "笔记/🤖 AI 人工智能/通过阅读 dlrover 源码学习训练时的自动冗灾恢复和 checkpoint 同步加速.md",
     "笔记/🤖 AI 人工智能/论文和源码解析：S-LoRA - Serving Thousands of Concurrent LoRA Adapters.md",
-    "笔记/🤖 AI 人工智能/用 FastEdit 微调大模型.md",
-    "笔记/🤖 AI 人工智能/机器学习生态研究报告.md",
     "未命名.canvas"
   ]
 }
