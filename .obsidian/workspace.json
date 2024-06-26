@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/🛠️ 开发/puppeteer模拟Googlebot访问页面输出html及截图.md",
+                "file": "笔记/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "笔记/🛠️ 开发/puppeteer模拟Googlebot访问页面输出html及截图.md",
+                "file": "笔记/index.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/🛠️ 开发/puppeteer模拟Googlebot访问页面输出html及截图.md"
+                "file": "笔记/index.md"
               }
             }
           },
@@ -188,7 +188,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/🛠️ 开发/puppeteer模拟Googlebot访问页面输出html及截图.md",
+                "file": "笔记/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,7 +205,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/🛠️ 开发/puppeteer模拟Googlebot访问页面输出html及截图.md",
+                "file": "笔记/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,8 +242,8 @@
   },
   "active": "8fac3dfbfa743bb6",
   "lastOpenFiles": [
-    "笔记/🛠️ 开发/robots.md",
     "笔记/🛠️ 开发/puppeteer模拟Googlebot访问页面输出html及截图.md",
+    "笔记/🛠️ 开发/robots.md",
     "笔记/🛠️ 开发/seo 新手指南.md",
     "笔记/🛠️ 开发/noindex规则.md",
     "视图/未添加标签的页面.md",
