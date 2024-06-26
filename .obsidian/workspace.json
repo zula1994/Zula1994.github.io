@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "基础设施 AWS",
+                "query": "tag:#软件/Obsidian/插件/Dataview",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -94,7 +94,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -240,7 +241,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8fac3dfbfa743bb6",
+  "active": "d5332c2bfa4468de",
   "lastOpenFiles": [
     "笔记/🛠️ 开发/puppeteer模拟Googlebot访问页面输出html及截图.md",
     "笔记/🛠️ 开发/robots.md",
