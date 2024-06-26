@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/🛠️ 开发/robots.txt.md",
+                "file": "笔记/🛠️ 开发/noindex规则.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "笔记/🛠️ 开发/robots.txt.md",
+                "file": "笔记/🛠️ 开发/noindex规则.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/🛠️ 开发/robots.txt.md"
+                "file": "笔记/🛠️ 开发/noindex规则.md"
               }
             }
           },
@@ -161,7 +161,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "00f8f8ad2cb9f9b0",
@@ -174,7 +175,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/🛠️ 开发/robots.txt.md",
+                "file": "笔记/🛠️ 开发/noindex规则.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,7 +192,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/🛠️ 开发/robots.txt.md",
+                "file": "笔记/🛠️ 开发/noindex规则.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -228,13 +229,14 @@
   },
   "active": "1ccddbe23cc1420d",
   "lastOpenFiles": [
+    "笔记/🛠️ 开发/robots.txt.md",
+    "笔记/🛠️ 开发/noindex规则.md",
     "笔记/🛠️ 开发/seo 新手指南.md",
     "视图/未添加标签的页面.md",
     "视图/尚未编写完成的页面.md",
     "笔记/index.md",
     "笔记/📦 收集箱/未命名.md",
     "模板/笔记模板.md",
-    "笔记/🛠️ 开发/robots.txt.md",
     "模板/日记模板.md",
     "模板/周记模板.md",
     "模板/分栏.md",
@@ -254,7 +256,6 @@
     "Invalid date.md",
     "vite.config.ts.timestamp-1719368660299-b4c44e96bcc87.mjs",
     "笔记/🛠️ 开发/vitepress-second.md",
-    "笔记/🛠️ 开发/noindex规则.md",
     "笔记/🛠️ 开发/nextjs-rewrite.md",
     "笔记/🛠️ 开发/nextjs-渲染模式.md",
     "笔记/🛠️ 开发/how-to-write-readme.md",
