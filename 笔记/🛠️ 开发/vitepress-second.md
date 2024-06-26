@@ -1,10 +1,9 @@
 ---
-outline: [1, 3]
-title: vitepress + github.io 生成静态站点
-description: vitepress + github.io 生成静态站点，使用github action进行自动构建和发布
-date: 2023-06-02
+cdate: 2023-06-02
 tags:
-    - blog
+  - blog
+cssclasses:
+  - max
 ---
 
 # 使用 VitePress 和 Github 搭建个人博客网站，使用 github action 进行自动构建和发布

@@ -8,6 +8,7 @@ import fg from 'fast-glob'
 import Git from 'simple-git'
 import matter from 'gray-matter'
 import uniq from 'lodash/uniq'
+import find from 'lodash/find'
 import TagsAlias from '../.vitepress/docsTagsAlias.json'
 import type { ArticleTree, DocsMetadata, DocsTagsAlias, Tag } from './types/metadata'
 
@@ -56,19 +57,19 @@ export async function listPages(dir: string, options: { target?: string, ignore?
  * @param upgradeIndex 是否升级 index
  * @returns 路由树
  */
-async function addRouteItem(indexes: ArticleTree[], path: string, upgradeIndex = false) {
+async function addRouteItem(indexes: ArticleTree[], path: string, upgradeIndex = false, file = {}) {
   const suffixIndex = path.lastIndexOf('.')
   const nameStartsAt = path.lastIndexOf('/') + 1
   const title = path.slice(nameStartsAt, suffixIndex)
   const item = {
     index: title,
     text: title,
+    cdate: file?.cdate,
     link: `/${path.slice(0, suffixIndex)}`,
     lastUpdated: +await git.raw(['log', '-1', '--format=%at', path]) * 1000,
   }
   const linkItems = item.link.split('/')
   linkItems.shift()
-
   target.split('/').forEach((item) => {
     if (item)
       linkItems.shift()
@@ -77,7 +78,7 @@ async function addRouteItem(indexes: ArticleTree[], path: string, upgradeIndex =
   if (linkItems.length === 1)
     return
 
-  indexes = addRouteItemRecursion(indexes, item, linkItems, upgradeIndex)
+  indexes = addRouteItemRecursion(indexes, item, linkItems, upgradeIndex, file)
 }
 
 /**
@@ -88,7 +89,7 @@ async function addRouteItem(indexes: ArticleTree[], path: string, upgradeIndex =
  * @param upgradeIndex 是否升级 index
  * @returns 路由树
  */
-function addRouteItemRecursion(indexes: ArticleTree[], item: any, path: string[], upgradeIndex: boolean) {
+function addRouteItemRecursion(indexes: ArticleTree[], item: any, path: string[], upgradeIndex: boolean, file: any) {
   if (path.length === 1) {
     indexes.push(item)
     return indexes
@@ -99,7 +100,6 @@ function addRouteItemRecursion(indexes: ArticleTree[], item: any, path: string[]
       return indexes
 
     let obj = indexes.find(obj => obj.index === onePath)
-
     if (!obj) {
       // 如果没有找到，就创建一个
       obj = { index: onePath, text: onePath, collapsed: true, items: [] }
@@ -115,10 +115,11 @@ function addRouteItemRecursion(indexes: ArticleTree[], item: any, path: string[]
       // 如果只有一个元素，并且是 index.md，直接写入 link 和 lastUpdated
       obj.link = item.link
       obj.lastUpdated = item.lastUpdated
+      obj.cdate = file?.cdate
     }
     else {
       // 否则，递归遍历
-      obj.items = addRouteItemRecursion(obj.items ?? [], item, path, upgradeIndex)
+      obj.items = addRouteItemRecursion(obj.items ?? [], item, path, upgradeIndex, file)
     }
 
     return indexes
@@ -132,7 +133,8 @@ function addRouteItemRecursion(indexes: ArticleTree[], item: any, path: string[]
  */
 async function processSidebar(docs: string[], docsMetadata: DocsMetadata) {
   await Promise.all(docs.map(async (docPath: string) => {
-    await addRouteItem(docsMetadata.sidebar, docPath)
+    const file = find(docsMetadata.docs, { relativePath: docPath })
+    await addRouteItem(docsMetadata.sidebar, docPath, false, file)
   }))
 }
 
@@ -301,15 +303,14 @@ async function processDocs(docs: string[], docsMetadata: DocsMetadata) {
     const content = fs.readFileSync(docPath, 'utf-8')
     // 解析 Markdown 文件的 frontmatter
     const parsedPageContent = matter(content)
-
     if (Array.isArray(parsedPageContent.data.tags)) {
       if (parsedPageContent.data.tags.includes(null))
         console.error('null tag found in', docPath)
-
       tagsToBeProcessed.push({ doc: docPath, tags: parsedPageContent.data.tags })
     }
 
     const hash = createHash('sha256')
+
     const tempSha256Hash = hash.update(parsedPageContent.content).digest('hex') // 对 Markdown 正文进行 sha256 hash
 
     // 如果没有找到，就初始化
@@ -317,6 +318,7 @@ async function processDocs(docs: string[], docsMetadata: DocsMetadata) {
       return {
         relativePath: docPath,
         hashes: { sha256: { content: tempSha256Hash } },
+        cdate: parsedPageContent.data?.cdate,
       }
     }
     else {
@@ -350,9 +352,9 @@ async function run() {
   const docsMetadata: DocsMetadata = { docs: [], sidebar: [], tags: [] }
 
   await processDocs(docs, docsMetadata)
+
   console.log('processed docs in', `${(new Date()).getTime() - now}ms`)
   now = (new Date()).getTime()
-
   await processSidebar(docs, docsMetadata)
   console.log('processed sidebar in', `${(new Date()).getTime() - now}ms`)
   now = (new Date()).getTime()

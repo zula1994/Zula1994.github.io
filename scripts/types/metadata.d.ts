@@ -2,6 +2,7 @@ export interface ArticleTree {
   index: string
   text: string
   link?: string
+  cdate: string
   lastUpdated?: number
   collapsible?: true
   collapsed?: true

@@ -4,38 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "ae994d6d2a7605fc",
+        "id": "c9218657668fa7b2",
         "type": "tabs",
         "children": [
           {
-            "id": "c01998b6274879fd",
+            "id": "ae405d2bef3164bb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "笔记/🛠️ 开发/seo 新手指南.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "f3ffc3ee92df043f",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "笔记/🛠️ 开发/assets/seo/202406251148635.png"
-              }
-            }
-          },
-          {
-            "id": "783d5636272d9d0a",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "笔记/🛠️ 开发/assets/seo/202406251148635.png"
               }
             }
           }
@@ -105,7 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 384.5
   },
   "right": {
     "id": "246bd0838f8f40a6",
@@ -247,18 +227,24 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c01998b6274879fd",
+  "active": "ae405d2bef3164bb",
   "lastOpenFiles": [
-    "笔记/🛠️ 开发/assets/seo/202406251148635.png",
-    "笔记/🛠️ 开发/seo 新手指南.md",
-    "笔记/🛠️ 开发/how-to-write-readme.md",
-    "笔记/index.md",
     "笔记/🛠️ 开发/robots.txt.md",
-    "笔记/🛠️ 开发/cdn.md",
+    "笔记/🛠️ 开发/assets/seo/202406251148635.png",
+    "Invalid date.md",
+    "笔记/🛠️ 开发/seo 新手指南.md",
+    "vite.config.ts.timestamp-1719368660299-b4c44e96bcc87.mjs",
+    "笔记/🛠️ 开发/vitepress-second.md",
+    "笔记/🛠️ 开发/noindex规则.md",
     "笔记/🛠️ 开发/nextjs-rewrite.md",
     "笔记/🛠️ 开发/nextjs-渲染模式.md",
-    "CNAME",
+    "笔记/🛠️ 开发/how-to-write-readme.md",
+    "笔记/🛠️ 开发/cdn.md",
+    "toc.md",
     "笔记/🛠️ 开发/assets/seo/202406251151029.png",
+    "vite.config.ts.timestamp-1719366187273-b57fc7efac5f2.mjs",
+    "笔记/index.md",
+    "CNAME",
     "笔记/🛠️ 开发/assets/seo/202406251148635.png.crdownload",
     "笔记/🛠️ 开发/assets/seo",
     "plugins/templater-obsidian/styles.css",
@@ -266,8 +252,6 @@
     "plugins/templater-obsidian/main.js",
     "plugins/templater-obsidian/main - 副本 (2).js",
     "plugins/templater-obsidian/main - mod.js",
-    "plugins/templater-obsidian/data.json",
-    "plugins/templater-obsidian",
     "笔记/🎨 设计/assets/Pasted image 20240619153923.png",
     "笔记/🎨 设计/image.png",
     "笔记/🎨 设计/assets/Pasted image 20240619151152.png",
@@ -290,10 +274,6 @@
     "README.md",
     "笔记/🪄 Vtuber/在 macOS 上不同的 VTuber 直播方案.md",
     "笔记/🧱 基础设施/🚢 Kubernetes/开发一个 Kubernetes Controller.md",
-    "笔记/🧱 基础设施/🚢 Kubernetes/将 TrueNAS 共享存储连接到 K8s 集群.md",
-    "笔记/🧱 基础设施/🚢 Kubernetes/kubectl 速查表.md",
-    "笔记/🧱 基础设施/🚢 Kubernetes/Pod 错误排查之.md",
-    "笔记/🧱 基础设施/云上集群的 GPU.md",
     "未命名.canvas"
   ]
 }

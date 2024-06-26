@@ -1,10 +1,7 @@
 ---
-outline: [2, 3]
-title: Next.js-rewrites使用
-description: 通过rewrites函数将请求的地址重定向到目标页面
-date: 2023-06-18
+cdate: 2023-06-18
 tags:
-    - Next.js
+  - Next.js
 ---
 
 ## Next.js routes 顺序

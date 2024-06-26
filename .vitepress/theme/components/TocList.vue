@@ -17,7 +17,7 @@ const list = computed(() => {
 
 const sortedList = computed(() => {
   const ls = [...list.value]
-  return ls.sort((a, b) => (b.lastUpdated || 0) - (a.lastUpdated || 0))
+  return ls.sort((a, b) => (new Date(b.cdate).getTime() || 0) - (new Date(a.cdate).getTime() || 0))
 })
 </script>
 
@@ -39,7 +39,7 @@ const sortedList = computed(() => {
       <div class="inline-block opacity-50">
         <span class="i-octicon:history-16 align-middle text-xs" />
         <span class="align-middle">
-          更新时间：{{ new Date(item.lastUpdated || 0).toLocaleDateString() }}
+          创建时间：{{ new Date(item.cdate || 0).toLocaleDateString() }}
         </span>
       </div>
     </div>
