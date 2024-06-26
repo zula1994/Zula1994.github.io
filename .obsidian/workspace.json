@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "视图/未添加标签的页面.md",
-                "mode": "preview",
+                "file": "笔记/🛠️ 开发/seo 新手指南.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -102,7 +102,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "视图/未添加标签的页面.md",
+                "file": "笔记/🛠️ 开发/seo 新手指南.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "视图/未添加标签的页面.md"
+                "file": "笔记/🛠️ 开发/seo 新手指南.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "视图/未添加标签的页面.md",
+                "file": "笔记/🛠️ 开发/seo 新手指南.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "视图/未添加标签的页面.md",
+                "file": "笔记/🛠️ 开发/seo 新手指南.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,6 +229,7 @@
   },
   "active": "1ccddbe23cc1420d",
   "lastOpenFiles": [
+    "视图/未添加标签的页面.md",
     "视图/尚未编写完成的页面.md",
     "笔记/index.md",
     "笔记/📦 收集箱/未命名.md",
@@ -258,7 +259,6 @@
     "笔记/🛠️ 开发/nextjs-rewrite.md",
     "笔记/🛠️ 开发/nextjs-渲染模式.md",
     "笔记/🛠️ 开发/how-to-write-readme.md",
-    "笔记/🛠️ 开发/cdn.md",
     "笔记/🛠️ 开发/assets/seo/202406251151029.png",
     "vite.config.ts.timestamp-1719366187273-b57fc7efac5f2.mjs",
     "CNAME",
