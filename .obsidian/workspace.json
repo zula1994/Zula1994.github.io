@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/🛠️ 开发/seo 新手指南.md",
+                "file": "笔记/🛠️ 开发/robots.txt.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "笔记/🛠️ 开发/seo 新手指南.md",
+                "file": "笔记/🛠️ 开发/robots.txt.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/🛠️ 开发/seo 新手指南.md"
+                "file": "笔记/🛠️ 开发/robots.txt.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/🛠️ 开发/seo 新手指南.md",
+                "file": "笔记/🛠️ 开发/robots.txt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/🛠️ 开发/seo 新手指南.md",
+                "file": "笔记/🛠️ 开发/robots.txt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -213,8 +213,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 362.5,
-    "collapsed": true
+    "width": 362.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -229,13 +228,13 @@
   },
   "active": "1ccddbe23cc1420d",
   "lastOpenFiles": [
+    "笔记/🛠️ 开发/seo 新手指南.md",
     "视图/未添加标签的页面.md",
     "视图/尚未编写完成的页面.md",
     "笔记/index.md",
     "笔记/📦 收集箱/未命名.md",
     "模板/笔记模板.md",
     "笔记/🛠️ 开发/robots.txt.md",
-    "笔记/🛠️ 开发/seo 新手指南.md",
     "模板/日记模板.md",
     "模板/周记模板.md",
     "模板/分栏.md",
