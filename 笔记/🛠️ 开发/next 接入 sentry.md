@@ -10,3 +10,8 @@ tags:
   - sentry
 ---
 
+## 使用/with-sentry初始化
+
+```
+npx create-next-app@13.5.6 --example with-sentry nextjs-sentry-example
+```
