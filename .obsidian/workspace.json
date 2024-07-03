@@ -239,7 +239,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 362.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -254,8 +254,10 @@
   },
   "active": "0bd7af005c88bb1b",
   "lastOpenFiles": [
-    "笔记/📦 收集箱/链接收藏.md",
+    "笔记/🛠️ 开发/assets/next-sentry-2.png",
+    "笔记/🛠️ 开发/assets/next-sentry-1.png",
     "笔记/🛠️ 开发/next 接入 sentry.md",
+    "笔记/📦 收集箱/链接收藏.md",
     "笔记/🛠️ 开发/使用ffmpeg将视频转换为GIF文件.md",
     "笔记/index.md",
     "笔记/🛠️ 开发/puppeteer模拟Googlebot访问页面输出html及截图.md",
@@ -283,7 +285,6 @@
     "笔记/🛠️ 开发/assets/seo/202406251148635.png",
     "Invalid date.md",
     "vite.config.ts.timestamp-1719368660299-b4c44e96bcc87.mjs",
-    "笔记/🛠️ 开发/vitepress-second.md",
     "笔记/🛠️ 开发/assets/seo/202406251151029.png",
     "vite.config.ts.timestamp-1719366187273-b57fc7efac5f2.mjs",
     "CNAME",
@@ -299,7 +300,6 @@
     "笔记/🎨 设计/assets/Pasted image 20240618233038.png",
     "笔记/🎨 设计/assets/Pasted image 20240618232940.png",
     "笔记/🎨 设计/assets/Pasted image 20240618232924.png",
-    "笔记/🎨 设计/assets/Pasted image 20240618232602.png",
     "未命名.canvas"
   ]
 }
