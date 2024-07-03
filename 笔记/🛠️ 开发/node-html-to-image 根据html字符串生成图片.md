@@ -6,6 +6,7 @@ cssclasses:
   - max
 comment: true
 tags:
+  - nodejs
 ---
 
 ## 安装
@@ -15,13 +16,15 @@ yarn add node-html-to-image
 
 ## 使用
 
+### 简单使用
+
 ```js
 
 nodeHtmlToImage({
 
 output: './image_.png',
 
-html: html,
+html: '<html><body>Hello world!</body></html>'
 
 })
 
