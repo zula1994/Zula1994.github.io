@@ -15,3 +15,4 @@ tags:
 ```
 npx create-next-app@13.5.6 --example with-sentry nextjs-sentry-example
 ```
+
