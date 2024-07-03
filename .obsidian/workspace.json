@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/🛠️ 开发/next 接入 sentry.md",
+                "file": "笔记/📦 收集箱/链接收藏.md",
                 "mode": "source",
                 "source": false
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "笔记/🛠️ 开发/next 接入 sentry.md",
+                "file": "笔记/📦 收集箱/链接收藏.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/🛠️ 开发/next 接入 sentry.md"
+                "file": "笔记/📦 收集箱/链接收藏.md"
               }
             }
           },
@@ -200,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/🛠️ 开发/next 接入 sentry.md",
+                "file": "笔记/📦 收集箱/链接收藏.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -217,7 +217,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/🛠️ 开发/next 接入 sentry.md",
+                "file": "笔记/📦 收集箱/链接收藏.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -254,8 +254,9 @@
   },
   "active": "0bd7af005c88bb1b",
   "lastOpenFiles": [
-    "笔记/🛠️ 开发/使用ffmpeg将视频转换为GIF文件.md",
     "笔记/🛠️ 开发/next 接入 sentry.md",
+    "笔记/📦 收集箱/链接收藏.md",
+    "笔记/🛠️ 开发/使用ffmpeg将视频转换为GIF文件.md",
     "笔记/index.md",
     "笔记/🛠️ 开发/puppeteer模拟Googlebot访问页面输出html及截图.md",
     "笔记/🛠️ 开发/robots.md",
@@ -283,7 +284,6 @@
     "Invalid date.md",
     "vite.config.ts.timestamp-1719368660299-b4c44e96bcc87.mjs",
     "笔记/🛠️ 开发/vitepress-second.md",
-    "笔记/🛠️ 开发/nextjs-rewrite.md",
     "笔记/🛠️ 开发/assets/seo/202406251151029.png",
     "vite.config.ts.timestamp-1719366187273-b57fc7efac5f2.mjs",
     "CNAME",
