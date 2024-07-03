@@ -8,3 +8,32 @@ comment: true
 tags:
 ---
 
+## 安装
+```zsh
+yarn add node-html-to-image
+```
+
+## 使用
+
+```js
+
+nodeHtmlToImage({
+
+output: './image_.png',
+
+html: html,
+
+})
+
+.then((dataUrl) => {
+
+console.log("Image saved!");
+
+})
+
+.catch((error) => {
+
+console.error("Error:", error);
+
+});
+```
