@@ -1,10 +1,11 @@
-name: 构建并部署
+name: 构建并部署到 Github Pages
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - 'master'
-  workflow_dispatch:
+
 
 env:
   STORE_PATH: ''
@@ -13,14 +14,13 @@ concurrency:
   group: ${{ github.ref }}
   cancel-in-progress: true
 
-
 jobs:
-    build:
+build:
     name: Ubuntu 构建和推送
     runs-on: ubuntu-latest
     environment:
-      name: 正式 Production
-      url: https://nolebase.ayaka.io
+      name: 正式 Production - GitHub Pages
+      url: https://nolebase.github.io/nolebase
     steps:
       - name: 签出代码
         uses: actions/checkout@v4
@@ -42,6 +42,7 @@ jobs:
         shell: bash
         run: |
           echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+
       - name: 配置 pnpm 缓存
         uses: actions/cache@v4
         with:
@@ -49,16 +50,17 @@ jobs:
           key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: |
             ${{ runner.os }}-pnpm-store-
+
       - name: 安装依赖
         run: pnpm install --frozen-lockfile
 
       - name: 构建
         run: pnpm docs:build
-      - uses: actions/configure-pages@v2
-            - uses: actions/upload-pages-artifact@v1
-              with:
-                  path: .vitepress/dist
-      - name: Deploy
-        id: deployment
-        uses: actions/deploy-pages@v1
 
+      - name: 推送到 gh-pages 分支
+        timeout-minutes: 10
+        with:
+          token: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: .vitepress/dist
+        uses: JamesIves/github-pages-deploy-action@v4
