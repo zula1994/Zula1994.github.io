@@ -16,7 +16,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-build:
+  build:
     name: Ubuntu 构建和推送
     runs-on: ubuntu-latest
     environment:
