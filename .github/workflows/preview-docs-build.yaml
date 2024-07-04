@@ -1,11 +1,12 @@
 name: 构建并部署到 Github Pages
 
 on:
-  workflow_dispatch:
+  # Runs on pushes targeting the default branch
   push:
-    branches:
-      - 'master'
+      branches: ['master']
 
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
 env:
   STORE_PATH: ''
@@ -19,8 +20,8 @@ build:
     name: Ubuntu 构建和推送
     runs-on: ubuntu-latest
     environment:
-      name: 正式 Production - GitHub Pages
-      url: https://nolebase.github.io/nolebase
+        name: github-pages
+        url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: 签出代码
         uses: actions/checkout@v4
