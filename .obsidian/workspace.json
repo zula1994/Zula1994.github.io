@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/🛠️ 开发/node-html-to-image 根据html字符串生成图片.md",
+                "file": "笔记/🛠️ 开发/node 处理图片 - gm.md",
                 "mode": "source",
                 "source": false
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "笔记/🛠️ 开发/node-html-to-image 根据html字符串生成图片.md",
+                "file": "笔记/🛠️ 开发/node 处理图片 - gm.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/🛠️ 开发/node-html-to-image 根据html字符串生成图片.md"
+                "file": "笔记/🛠️ 开发/node 处理图片 - gm.md"
               }
             }
           },
@@ -200,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/🛠️ 开发/node-html-to-image 根据html字符串生成图片.md",
+                "file": "笔记/🛠️ 开发/node 处理图片 - gm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -217,7 +217,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/🛠️ 开发/node-html-to-image 根据html字符串生成图片.md",
+                "file": "笔记/🛠️ 开发/node 处理图片 - gm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -254,10 +254,11 @@
   },
   "active": "0bd7af005c88bb1b",
   "lastOpenFiles": [
+    "笔记/🛠️ 开发/node-html-to-image 根据html字符串生成图片.md",
+    "笔记/🛠️ 开发/node 处理图片 - gm.md",
     "笔记/🛠️ 开发/cdn.md",
     "笔记/🛠️ 开发/how-to-write-readme.md",
     "笔记/🛠️ 开发/puppeteer模拟Googlebot访问页面输出html及截图.md",
-    "笔记/🛠️ 开发/node-html-to-image 根据html字符串生成图片.md",
     "笔记/🛠️ 开发/next 接入 sentry.md",
     "笔记/🛠️ 开发/assets/next-sentry-2.png",
     "笔记/🛠️ 开发/assets/next-sentry-1.png",
@@ -282,7 +283,6 @@
     "04-模板/周记模板.md",
     "04-模板/人物模板.md",
     "04-模板/分栏.md",
-    "04-模板/日记模板.md",
     "04-模板",
     "笔记/🛠️ 开发/assets/seo/202406251148635.png",
     "vite.config.ts.timestamp-1719368660299-b4c44e96bcc87.mjs",
