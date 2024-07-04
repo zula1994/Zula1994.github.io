@@ -1,40 +1,64 @@
-name: Deploy
+name: 构建并部署
 
 on:
-    # Runs on pushes targeting the default branch
-    push:
-        branches: ['master']
+  push:
+    branches:
+      - 'master'
+  workflow_dispatch:
 
-    # Allows you to run this workflow manually from the Actions tab
-    workflow_dispatch:
+env:
+  STORE_PATH: ''
+
+concurrency:
+  group: ${{ github.ref }}
+  cancel-in-progress: true
+
 
 jobs:
-    deploy:
-        runs-on: ubuntu-latest
-        permissions:
-            pages: write
-            id-token: write
-        environment:
-            name: github-pages
-            url: ${{ steps.deployment.outputs.page_url }}
-        steps:
-            - uses: actions/checkout@v3
-              with:
-                  fetch-depth: 0
-            - uses: pnpm/action-setup@v2
-              with:
-                  version: 9
-            - uses: actions/setup-node@v3
-              with:
-                  node-version: 20
-                  cache: pnpm
-            - run: pnpm install --no-frozen-lockfile
-            - name: Build
-              run: pnpm run build
-            - uses: actions/configure-pages@v2
+    build:
+    name: Ubuntu 构建和推送
+    runs-on: ubuntu-latest
+    environment:
+      name: 正式 Production
+      url: https://nolebase.ayaka.io
+    steps:
+      - name: 签出代码
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 安装 Node.js 22.x
+        uses: actions/setup-node@v3
+        with:
+          node-version: 22.x
+
+      - name: 安装 pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          run_install: false
+          version: '9.1.2'
+
+      - name: 获取 pnpm store 目录
+        shell: bash
+        run: |
+          echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+      - name: 配置 pnpm 缓存
+        uses: actions/cache@v4
+        with:
+          path: ${{ env.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
+      - name: 安装依赖
+        run: pnpm install --frozen-lockfile
+
+      - name: 构建
+        run: pnpm docs:build
+      - uses: actions/configure-pages@v2
             - uses: actions/upload-pages-artifact@v1
               with:
                   path: .vitepress/dist
-            - name: Deploy
-              id: deployment
-              uses: actions/deploy-pages@v1
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v1
+
