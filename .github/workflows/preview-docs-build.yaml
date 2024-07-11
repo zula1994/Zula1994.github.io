@@ -6,8 +6,6 @@ on:
       branches: ['master']
 env:
   STORE_PATH: ''
-permissions:
-  contents: write
 jobs:
   deploy:
     name: Ubuntu 构建和推送
@@ -51,13 +49,13 @@ jobs:
       - name: 构建
         run: pnpm docs:build
 
-      - name: 部署
-        uses: actions/configure-pages@v2
-
-      - uses: actions/upload-pages-artifact@v1
+      - name: 推送到 gh-pages 分支
+        uses: JamesIves/github-pages-deploy-action@v4.6.1
+        timeout-minutes: 10
         with:
-            path: .vitepress/dist
-      - name: Deploy
+          token: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: .vitepress/dist
         uses: actions/deploy-pages@v1
 
 
