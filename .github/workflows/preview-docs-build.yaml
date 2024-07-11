@@ -51,7 +51,7 @@ jobs:
         run: pnpm docs:build
 
       - name: 推送到 gh-pages 分支
-        uses: JamesIves/github-pages-deploy-action@v4.6.3
+        uses: JamesIves/github-pages-deploy-action@v4.6.1
         timeout-minutes: 10
         with:
           token: ${{ secrets.ACCESS_TOKEN }}
