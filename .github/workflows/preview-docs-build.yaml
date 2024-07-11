@@ -56,6 +56,5 @@ jobs:
           token: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: gh-pages
           FOLDER: .vitepress/dist
-        uses: actions/deploy-pages@v1
 
 
