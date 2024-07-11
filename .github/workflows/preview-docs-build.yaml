@@ -52,12 +52,11 @@ jobs:
         run: pnpm docs:build
 
       - name: 部署
-      - uses: actions/configure-pages@v2
-      - uses: actions/upload-pages-artifact@v1
+        uses: actions/configure-pages@v2
+        uses: actions/upload-pages-artifact@v1
         with:
             path: .vitepress/dist
       - name: Deploy
-        id: deployment
         uses: actions/deploy-pages@v1
 
 
