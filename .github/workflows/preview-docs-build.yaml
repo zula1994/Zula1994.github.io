@@ -58,7 +58,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         timeout-minutes: 10
         with:
-          token: ${{ GITHUB_TOKEN }}
+          token: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: gh-pages
           FOLDER: .vitepress/dist
           CLEAN: true
