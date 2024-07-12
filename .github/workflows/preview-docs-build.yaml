@@ -4,16 +4,17 @@ on:
   # Runs on pushes targeting the default branch
   push:
       branches: ['master']
-
+permissions:
+    contents: write
 jobs:
-  deploy:
+  build-and-deploy:
     name: Ubuntu 构建和推送
+    concurrency: ci-${{ github.ref }}
     runs-on: ubuntu-latest
     env:
       STORE_PATH: ''
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    permissions:
-      contents: write
+
     environment:
         name: github-pages
         url: ${{ steps.deployment.outputs.page_url }}
@@ -54,7 +55,7 @@ jobs:
         run: pnpm docs:build
 
       - name: 推送到 gh-pages 分支
-        uses: JamesIves/github-pages-deploy-action@v4.6.1
+        uses: JamesIves/github-pages-deploy-action@v4
         timeout-minutes: 10
         with:
           token: ${{ secrets.ACCESS_TOKEN }}
