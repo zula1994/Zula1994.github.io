@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       STORE_PATH: ''
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
 
     environment:
         name: github-pages
@@ -58,7 +58,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         timeout-minutes: 10
         with:
-          token: ${{ secrets.ACCESS_TOKEN }}
+          token: ${{ GITHUB_TOKEN }}
           BRANCH: gh-pages
           FOLDER: .vitepress/dist
           CLEAN: true
