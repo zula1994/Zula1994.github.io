@@ -4,12 +4,16 @@ on:
   # Runs on pushes targeting the default branch
   push:
       branches: ['master']
-env:
-  STORE_PATH: ''
+
 jobs:
   deploy:
     name: Ubuntu 构建和推送
     runs-on: ubuntu-latest
+    env:
+      STORE_PATH: ''
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    permissions:
+      contents: write
     environment:
         name: github-pages
         url: ${{ steps.deployment.outputs.page_url }}
@@ -56,5 +60,6 @@ jobs:
           token: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: gh-pages
           FOLDER: .vitepress/dist
+          CLEAN: true
 
 
