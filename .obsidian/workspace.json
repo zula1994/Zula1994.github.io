@@ -37,8 +37,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/🛠️ 开发/assets/ngrok 内网穿透.md",
-                "mode": "source",
+                "file": "笔记/🛠️ 开发/网站的 12 个基本 SEO HTML 标签和属性.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -110,7 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 415.5
   },
   "right": {
     "id": "246bd0838f8f40a6",
@@ -127,7 +127,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "笔记/🛠️ 开发/assets/ngrok 内网穿透.md",
+                "file": "笔记/🛠️ 开发/网站的 12 个基本 SEO HTML 标签和属性.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/🛠️ 开发/assets/ngrok 内网穿透.md"
+                "file": "笔记/🛠️ 开发/网站的 12 个基本 SEO HTML 标签和属性.md"
               }
             }
           },
@@ -200,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/🛠️ 开发/assets/ngrok 内网穿透.md",
+                "file": "笔记/🛠️ 开发/网站的 12 个基本 SEO HTML 标签和属性.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -217,7 +217,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/🛠️ 开发/assets/ngrok 内网穿透.md",
+                "file": "笔记/🛠️ 开发/网站的 12 个基本 SEO HTML 标签和属性.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -254,8 +254,10 @@
   },
   "active": "0bd7af005c88bb1b",
   "lastOpenFiles": [
+    "笔记/🛠️ 开发/seo 新手指南.md",
+    "笔记/🛠️ 开发/网站的 12 个基本 SEO HTML 标签和属性.md",
+    "笔记/🛠️ 开发/ngrok 内网穿透.md",
     "笔记/🛠️ 开发/Ubuntu 安装宝塔.md",
-    "笔记/🛠️ 开发/assets/ngrok 内网穿透.md",
     "笔记/🛠️ 开发/assets/baota-1.jpg",
     "笔记/🛠️ 开发/next 接入 sentry.md",
     "笔记/🛠️ 开发/node 使用gm处理处理图片.md",
@@ -269,7 +271,6 @@
     "笔记/🛠️ 开发/使用ffmpeg将视频转换为GIF文件.md",
     "笔记/index.md",
     "笔记/🛠️ 开发/robots.md",
-    "笔记/🛠️ 开发/seo 新手指南.md",
     "笔记/🛠️ 开发/noindex规则.md",
     "视图/未添加标签的页面.md",
     "视图/尚未编写完成的页面.md",
@@ -283,7 +284,6 @@
     "模板",
     "04-模板/memo.md",
     "04-模板/time.md",
-    "04-模板/周记模板.md",
     "04-模板",
     "笔记/🛠️ 开发/assets/seo/202406251148635.png",
     "vite.config.ts.timestamp-1719368660299-b4c44e96bcc87.mjs",
