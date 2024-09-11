@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/🛠️ 开发/深入理解现代浏览器.md",
+                "file": "笔记/🛠️ 开发/网站的 12 个基本 SEO HTML 标签和属性.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "246bd0838f8f40a6",
@@ -127,7 +128,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "笔记/🛠️ 开发/深入理解现代浏览器.md",
+                "file": "笔记/🛠️ 开发/网站的 12 个基本 SEO HTML 标签和属性.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -174,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/🛠️ 开发/深入理解现代浏览器.md"
+                "file": "笔记/🛠️ 开发/网站的 12 个基本 SEO HTML 标签和属性.md"
               }
             }
           },
@@ -200,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/🛠️ 开发/深入理解现代浏览器.md",
+                "file": "笔记/🛠️ 开发/网站的 12 个基本 SEO HTML 标签和属性.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -217,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/🛠️ 开发/深入理解现代浏览器.md",
+                "file": "笔记/🛠️ 开发/网站的 12 个基本 SEO HTML 标签和属性.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -254,9 +255,14 @@
   },
   "active": "8fac3dfbfa743bb6",
   "lastOpenFiles": [
+    "vite.config.ts.timestamp-1726035094831-a17c9fd85ae87.mjs",
+    "vite.config.ts.timestamp-1726035018575-3fecb4a0d7c62.mjs",
+    "vite.config.ts.timestamp-1726035001168-3e14967e7003.mjs",
+    "vite.config.ts.timestamp-1726034966016-1c817912e2c6e.mjs",
+    "vite.config.ts.timestamp-1726034775417-31a1d1576ea33.mjs",
+    "笔记/🛠️ 开发/深入理解现代浏览器.md",
     "笔记/index.md",
     "笔记/🛠️ 开发/网站的 12 个基本 SEO HTML 标签和属性.md",
-    "笔记/🛠️ 开发/深入理解现代浏览器.md",
     "笔记/🛠️ 开发/使用ffmpeg将视频转换为GIF文件.md",
     "笔记/🛠️ 开发/seo 新手指南.md",
     "笔记/🛠️ 开发/ngrok 内网穿透.md",
@@ -283,7 +289,6 @@
     "模板/time.md",
     "模板/memo.md",
     "模板",
-    "04-模板/memo.md",
     "04-模板",
     "笔记/🛠️ 开发/assets/seo/202406251148635.png",
     "vite.config.ts.timestamp-1719368660299-b4c44e96bcc87.mjs",
@@ -291,10 +296,6 @@
     "vite.config.ts.timestamp-1719366187273-b57fc7efac5f2.mjs",
     "CNAME",
     "笔记/🛠️ 开发/assets/seo/202406251148635.png.crdownload",
-    "笔记/🛠️ 开发/assets/seo",
-    "plugins/templater-obsidian/styles.css",
-    "plugins/templater-obsidian/manifest.json",
-    "plugins/templater-obsidian/main.js",
     "笔记/🎨 设计/assets/Pasted image 20240619153923.png",
     "笔记/🎨 设计/image.png",
     "笔记/🎨 设计/assets/Pasted image 20240619151152.png",

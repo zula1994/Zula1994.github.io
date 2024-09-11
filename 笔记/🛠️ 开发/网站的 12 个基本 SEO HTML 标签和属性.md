@@ -9,7 +9,7 @@ tags:
   - seo
 ---
 ****
-## 1. 标题标签 
+## 1. 标题标签
 
 标题标签是用于指定网页标题的 HTML 元素。它作为可点击的链接显示在搜索引擎结果页面 (SERP) 上。
 
@@ -23,13 +23,13 @@ tags:
 
 ![](https://pic4.zhimg.com/80/v2-b68610ce778884981dff6c2743adcfcf_1440w.webp)
 
-要添加标题标签，请在 HTML 构建器中使用属性 <title>。
+要添加标题标签，请在 HTML 构建器中使用属性 `<title>`。
 
-在要显示为标题的文本之前添加一个开始 <title> 标记。其末尾有一个结束 </title> 标记。
+在要显示为标题的文本之前添加一个开始 `<title>` 标记。其末尾有一个结束 `</title> `标记。
 
 ![](https://pic4.zhimg.com/80/v2-9a6db007a64cfc23c91f8b68a3034c5f_1440w.webp)
 
-在您向网页添加标题后，您的内容管理系统 (CMS)（例如 WordPress 或 HubSpot）可能会自动创建 <title> 标记。
+在您向网页添加标题后，您的内容管理系统 (CMS)（例如 WordPress 或 HubSpot）可能会自动创建 `<title>` 标记。
 
 ### 标题标签最佳实践
 
@@ -148,7 +148,7 @@ Alt 文本或替代文本是与图像相对应的描述。如果图像无法加�
 
 在许多 CMS 中，您无需使用 HTML 编辑器即可应用替代文本。
 
-  
+
 
 ## 5. 规范标签 `<canonical>`
 
@@ -312,12 +312,12 @@ noindex 指令告诉搜索引擎不要将该页面包含在搜索结果中。 no
 ```
 <table>
 	<tr>
-	<th>Header 1</th> 
-	<th>Header 2</th>  
+	<th>Header 1</th>
+	<th>Header 2</th>
 	</tr>
-	<tr>  
+	<tr>
 	<td>Data 1</td>
-	<td>Data 2</td>  
+	<td>Data 2</td>
 	</tr>
 </table>
 ```
@@ -430,10 +430,10 @@ HTML 中的列表如下所示：
 您的列表在 HTML 中将如下所示：
 
 ```
-<ul>  
+<ul>
 <li>Oranges</li>
 <li>Sugar</li>
-<li>Water</li> 
+<li>Water</li>
 </ul>
 ```
 发布后，您的列表将如下所示：
