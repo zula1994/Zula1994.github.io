@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "734ac49af999e645",
+        "id": "1b17bbfb272f77c0",
         "type": "tabs",
         "children": [
           {
-            "id": "1ccddbe23cc1420d",
+            "id": "75a4bebd86bad81b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/🛠️ 开发/robots.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8fac3dfbfa743bb6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "笔记/🛠️ 开发/网站的 12 个基本 SEO HTML 标签和属性.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0bd7af005c88bb1b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "笔记/🛠️ 开发/网站的 12 个基本 SEO HTML 标签和属性.md",
+                "file": "笔记/🛠️ 开发/深入理解现代浏览器.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,8 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "246bd0838f8f40a6",
@@ -128,7 +102,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "笔记/🛠️ 开发/网站的 12 个基本 SEO HTML 标签和属性.md",
+                "file": "笔记/🛠️ 开发/深入理解现代浏览器.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -175,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/🛠️ 开发/网站的 12 个基本 SEO HTML 标签和属性.md"
+                "file": "笔记/🛠️ 开发/深入理解现代浏览器.md"
               }
             }
           },
@@ -201,7 +175,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/🛠️ 开发/网站的 12 个基本 SEO HTML 标签和属性.md",
+                "file": "笔记/🛠️ 开发/深入理解现代浏览器.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +192,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/🛠️ 开发/网站的 12 个基本 SEO HTML 标签和属性.md",
+                "file": "笔记/🛠️ 开发/深入理解现代浏览器.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -253,21 +227,28 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8fac3dfbfa743bb6",
+  "active": "75a4bebd86bad81b",
   "lastOpenFiles": [
+    "笔记/🛠️ 开发/assets/browser~1.jpg",
+    "笔记/🛠️ 开发/深入理解现代浏览器.md",
+    "笔记/🛠️ 开发/assets/browser~5.jpg",
+    "笔记/🛠️ 开发/assets/browser~4.jpg",
+    "笔记/🛠️ 开发/assets/browser~3.jpg",
+    "笔记/🛠️ 开发/assets/browser~2.jpg",
+    "笔记/🛠️ 开发/assets/baota-1.jpg",
+    "笔记/🛠️ 开发/assets/browser~1.awebp",
+    "笔记/🛠️ 开发/网站的 12 个基本 SEO HTML 标签和属性.md",
+    "笔记/🛠️ 开发/robots.md",
     "vite.config.ts.timestamp-1726035094831-a17c9fd85ae87.mjs",
     "vite.config.ts.timestamp-1726035018575-3fecb4a0d7c62.mjs",
     "vite.config.ts.timestamp-1726035001168-3e14967e7003.mjs",
     "vite.config.ts.timestamp-1726034966016-1c817912e2c6e.mjs",
     "vite.config.ts.timestamp-1726034775417-31a1d1576ea33.mjs",
-    "笔记/🛠️ 开发/深入理解现代浏览器.md",
     "笔记/index.md",
-    "笔记/🛠️ 开发/网站的 12 个基本 SEO HTML 标签和属性.md",
     "笔记/🛠️ 开发/使用ffmpeg将视频转换为GIF文件.md",
     "笔记/🛠️ 开发/seo 新手指南.md",
     "笔记/🛠️ 开发/ngrok 内网穿透.md",
     "笔记/🛠️ 开发/Ubuntu 安装宝塔.md",
-    "笔记/🛠️ 开发/assets/baota-1.jpg",
     "笔记/🛠️ 开发/next 接入 sentry.md",
     "笔记/🛠️ 开发/node 使用gm处理处理图片.md",
     "笔记/🛠️ 开发/node-html-to-image 根据html字符串生成图片.md",
@@ -277,7 +258,6 @@
     "笔记/🛠️ 开发/assets/next-sentry-2.png",
     "笔记/🛠️ 开发/assets/next-sentry-1.png",
     "笔记/📦 收集箱/链接收藏.md",
-    "笔记/🛠️ 开发/robots.md",
     "笔记/🛠️ 开发/noindex规则.md",
     "视图/未添加标签的页面.md",
     "视图/尚未编写完成的页面.md",
@@ -294,13 +274,6 @@
     "vite.config.ts.timestamp-1719368660299-b4c44e96bcc87.mjs",
     "笔记/🛠️ 开发/assets/seo/202406251151029.png",
     "vite.config.ts.timestamp-1719366187273-b57fc7efac5f2.mjs",
-    "CNAME",
-    "笔记/🛠️ 开发/assets/seo/202406251148635.png.crdownload",
-    "笔记/🎨 设计/assets/Pasted image 20240619153923.png",
-    "笔记/🎨 设计/image.png",
-    "笔记/🎨 设计/assets/Pasted image 20240619151152.png",
-    "笔记/🎨 设计/assets/Pasted image 20240618235052.png",
-    "笔记/🎨 设计/assets/Pasted image 20240618233038.png",
     "未命名.canvas"
   ]
 }
