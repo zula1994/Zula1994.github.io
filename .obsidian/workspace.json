@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/🛠️ 开发/前端性能优化-缓存片.md",
+                "file": "笔记/🛠️ 开发/未命名.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "笔记/🛠️ 开发/前端性能优化-缓存片.md",
+                "file": "笔记/🛠️ 开发/未命名.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/🛠️ 开发/前端性能优化-缓存片.md"
+                "file": "笔记/🛠️ 开发/未命名.md"
               }
             }
           },
@@ -175,7 +175,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/🛠️ 开发/前端性能优化-缓存片.md",
+                "file": "笔记/🛠️ 开发/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +192,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/🛠️ 开发/前端性能优化-缓存片.md",
+                "file": "笔记/🛠️ 开发/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -227,11 +227,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b5dfc4e6c8287ee4",
+  "active": "75a4bebd86bad81b",
   "lastOpenFiles": [
+    "笔记/🛠️ 开发/前端性能优化-缓存片.md",
+    "笔记/🛠️ 开发/未命名.md",
     "笔记/🛠️ 开发/assets/browser-1.jpg",
     "笔记/🛠️ 开发/前端性能优化-网络篇.md",
-    "笔记/🛠️ 开发/前端性能优化-缓存片.md",
     "笔记/🛠️ 开发/深入理解现代浏览器.md",
     "笔记/🛠️ 开发/assets/browser~1.jpg",
     "笔记/🛠️ 开发/assets/browser~5.jpg",
@@ -273,7 +274,6 @@
     "04-模板",
     "笔记/🛠️ 开发/assets/seo/202406251148635.png",
     "vite.config.ts.timestamp-1719368660299-b4c44e96bcc87.mjs",
-    "笔记/🛠️ 开发/assets/seo/202406251151029.png",
     "vite.config.ts.timestamp-1719366187273-b57fc7efac5f2.mjs",
     "未命名.canvas"
   ]
