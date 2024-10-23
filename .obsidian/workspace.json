@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/🛠️ 开发/nextjs-渲染模式.md",
+                "file": "笔记/🛠️ 开发/iOS中使用schema协议打开APP.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "笔记/🛠️ 开发/nextjs-渲染模式.md",
+                "file": "笔记/🛠️ 开发/iOS中使用schema协议打开APP.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/🛠️ 开发/nextjs-渲染模式.md"
+                "file": "笔记/🛠️ 开发/iOS中使用schema协议打开APP.md"
               }
             }
           },
@@ -175,7 +175,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/🛠️ 开发/nextjs-渲染模式.md",
+                "file": "笔记/🛠️ 开发/iOS中使用schema协议打开APP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +192,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/🛠️ 开发/nextjs-渲染模式.md",
+                "file": "笔记/🛠️ 开发/iOS中使用schema协议打开APP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,6 +229,10 @@
   },
   "active": "75a4bebd86bad81b",
   "lastOpenFiles": [
+    "笔记/🛠️ 开发/nextjs-渲染模式.md",
+    "笔记/🛠️ 开发/iOS中使用schema协议打开APP.md",
+    "笔记/🛠️ 开发/nextjs-rewrite.md",
+    "笔记/🛠️ 开发/node-html-to-image 根据html字符串生成图片.md",
     "笔记/🛠️ 开发/ngrok 内网穿透.md",
     "笔记/🛠️ 开发/算法-数据结构.md",
     "笔记/🛠️ 开发/assets/demo-1.js",
@@ -256,7 +260,6 @@
     "笔记/🛠️ 开发/Ubuntu 安装宝塔.md",
     "笔记/🛠️ 开发/next 接入 sentry.md",
     "笔记/🛠️ 开发/node 使用gm处理处理图片.md",
-    "笔记/🛠️ 开发/node-html-to-image 根据html字符串生成图片.md",
     "笔记/🛠️ 开发/cdn.md",
     "笔记/🛠️ 开发/how-to-write-readme.md",
     "笔记/🛠️ 开发/puppeteer模拟Googlebot访问页面输出html及截图.md",
@@ -268,8 +271,6 @@
     "视图/尚未编写完成的页面.md",
     "模板/笔记模板.md",
     "模板/日记模板.md",
-    "模板/周记模板.md",
-    "模板/分栏.md",
     "模板",
     "04-模板",
     "笔记/🛠️ 开发/assets/seo/202406251148635.png",
