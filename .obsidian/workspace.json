@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/🛠️ 开发/iOS中使用schema协议打开APP.md",
+                "file": "笔记/🛠️ 开发/next 接入 sentry.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "笔记/🛠️ 开发/iOS中使用schema协议打开APP.md",
+                "file": "笔记/🛠️ 开发/next 接入 sentry.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/🛠️ 开发/iOS中使用schema协议打开APP.md"
+                "file": "笔记/🛠️ 开发/next 接入 sentry.md"
               }
             }
           },
@@ -175,7 +175,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/🛠️ 开发/iOS中使用schema协议打开APP.md",
+                "file": "笔记/🛠️ 开发/next 接入 sentry.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +192,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/🛠️ 开发/iOS中使用schema协议打开APP.md",
+                "file": "笔记/🛠️ 开发/next 接入 sentry.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,8 +229,8 @@
   },
   "active": "75a4bebd86bad81b",
   "lastOpenFiles": [
-    "笔记/🛠️ 开发/nextjs-渲染模式.md",
     "笔记/🛠️ 开发/iOS中使用schema协议打开APP.md",
+    "笔记/🛠️ 开发/nextjs-渲染模式.md",
     "笔记/🛠️ 开发/nextjs-rewrite.md",
     "笔记/🛠️ 开发/node-html-to-image 根据html字符串生成图片.md",
     "笔记/🛠️ 开发/ngrok 内网穿透.md",
